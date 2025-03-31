@@ -51,3 +51,8 @@ web/.csslintrc
 web/.eslintignore
 web/.eslintrc.json
 web/.csslintrc
+
+
+#npm ignores
+web/themes/custom/tailwindcued/node_modules
+

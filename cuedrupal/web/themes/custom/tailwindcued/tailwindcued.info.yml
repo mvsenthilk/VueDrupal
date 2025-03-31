@@ -1,0 +1,23 @@
+name: tailwindcued
+type: theme
+'base theme': stable9
+version: 1.0.0
+libraries:
+  - tailwindcued/base
+  - tailwindcued/messages
+  - core/normalize
+  - tailwindcued/global-styling
+libraries-extend:
+  user/drupal.user:
+    - tailwindcued/user
+  core/drupal.dropbutton:
+    - tailwindcued/dropbutton
+  core/drupal.dialog:
+    - tailwindcued/dialog
+  file/drupal.file:
+    - tailwindcued/file
+  core/drupal.progress:
+    - tailwindcued/progress
+description: ''
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.4.5'
