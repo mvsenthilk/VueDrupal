@@ -2,6 +2,7 @@
 
 # use 
 ddev stop --all
+
 docker system prune -a
 
 # for clearing everything - when stuck on port issues
